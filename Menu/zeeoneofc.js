@@ -19,10 +19,10 @@ ${simbolnya} ${prefix}unblock @tag
 ${simbolnya} ${prefix}setbiobot [text]
 ${simbolnya} ${prefix}setnamabot [text]
 ${simbolnya} ${prefix}resetlimit
-${simbolnya} ${prefix}prem add @tag waktu
-${simbolnya} ${prefix}prem del
-${simbolnya} ${prefix}sewa add waktu
-${simbolnya} ${prefix}sewa del
+${simbolnya} ${prefix}addprem @tag waktu
+${simbolnya} ${prefix}dellprem @tag
+${simbolnya} ${prefix}addsewa waktu
+${simbolnya} ${prefix}dellsewa
 ${simbolnya} ${prefix}setcmd [reply stiker]
 ${simbolnya} ${prefix}delcmd [reply stiker]
 ${simbolnya} ${prefix}listcmd
