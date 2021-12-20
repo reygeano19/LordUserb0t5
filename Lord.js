@@ -614,10 +614,10 @@ Minat? Pm wa.me/${owner_number}`,
 				const fakeReply = (teks, target, teks2) => {
 					Zeeone.sendMessage(from, teks, text, {quoted: {key: {fromMe: false, participant: `${target}@s.whatsapp.net`, ...(from ? { remoteJid: from } : {}) }, message: { conversation: teks2}}})
 				}
-				let authorname = Zeeone.contacts[from] != undefined ? Zeeone.contacts[from].vname || Zeeone.contacts[from].notify : undefined	
+				let authorname = Zeeone.contacts[from] != undefined ? Zeeone.contacts[from].vname || Zeeone.contacts[from].notify : AbengRiandana	
 				if (authorname != undefined) { } else { authorname = groupName }	
 					function addMetadata(packname, author) {	
-						if (!packname) packname = 'self'; if (!author) author = 'Zeeone';author = author.replace(/[^a-zA-Z0-9]/g, '');	
+						if (!packname) packname = 'self'; if (!author) author = 'Pangeran BotZ';author = author.replace(/[^a-zA-Z0-9]/g, '');	
 						let name = `${author}_${packname}`
 						if (fs.existsSync(`./sticker/${name}.exif`)) return `./sticker/${name}.exif`
 				const json = {	
