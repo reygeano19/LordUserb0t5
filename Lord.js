@@ -102,7 +102,7 @@ const lolkey = '78bd89cd7b4d6205e3e18061'
 
 let single = false
 let prefa = setting.prefix
-let offline = false
+let offline = true
 let antitrol = true 
 
 let hit_today = []
@@ -122,7 +122,7 @@ let public_mode = setting. public_mode
 let mlistmsg = false 
 let multiprefix = true 
 let nopref = false
-let autovn = false
+let autovn = true
 let ngetik = false
 let menusimple = false
 let Mloc = false
